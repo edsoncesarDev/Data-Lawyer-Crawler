@@ -17,8 +17,23 @@ Developing a crawler with ASP.NET Core REST API C#
 
 ## Funcionalidades
 
-- `Registrar usuário, METHOD POST` é necessário criar seu usuário para utilizar as demais funcionalidades do projeto.
-- `Login, METHOD POST` ao efetuar o login será gerado um token de autenticação clique no campo com o nome `Authorize` e o preencha com `bearer + token` logo após você terá acesso aos demais endpoints.
-- `Consultando e obtendo dados do processo via Crawler, METHOD POST` para realizar e obter os dados da consulta via crawler, basta passar um número de um processo válido, com isso será persistido todas as informações no SGBD MySQL, importante ressaltar que não será possível cadastrar o mesmo processo já obtido.
-- `Obtén todos os processos METHOD GET` obtén todos os processos criados.
-- `Obtén apenas um processo por Id METHOD GET` infor
+- `Registrar usuário` é necessário criar seu usuário para utilizar as demais funcionalidades do projeto.
+- `Login` ao efetuar o login será gerado um token de autenticação, clique no campo com o nome `Authorize` e o preencha com `bearer + token` logo após você terá acesso aos demais endpoints.
+- `Consultando e persistindo dados do processo via Crawler` para realizar e obter os dados da consulta via crawler, basta passar um número de um processo válido, com isso será persistido todas as informações no SGBD MySQL, importante ressaltar que não será possível cadastrar o mesmo processo já obtido.
+- `Atualizar dados do processo` é possível atualizar os dados persistido, passando o `Id` do processo e as informações que deseja alterar.
+- `Busca todos os processos` obtén todos os processos criados.
+- `Busca apenas um processo` obtén apenas um processo definido pelo `Id`.
+- `Deleta um processo` busca um processo pelo `Id` em seguida o remove.
+
+## Verbos HTTP
+
+### Users:
+- `METHOD POST:` Registrar usuário.
+- `METHOD POST:` Efetuas login.
+
+### Processes:
+- `METHOD POST:` Consulta e persiste dados do processo via Crawler.
+- `METHOD GET:` Busca todos os processos cadastrados.
+- `METHOD GET/ID` Busca apenas um processo.
+- `METHOD PUT` Atualiza um processo.
+- `METHOD DELETE` Exclui um processo.
