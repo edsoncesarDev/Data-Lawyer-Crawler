@@ -14,6 +14,7 @@ Developing a crawler with ASP.NET Core REST API C#
 - Utilizando o visual studio, basta clicar em `Tools > Command Line > Developer PowerShell` para abrir uma janela do mesmo.
 - Com isso basta digitar o comando: `docker-compose -f docker-compose.yml up -d`
 - Logo após, abra seu navegador e digite o seguinte endereço: `http://localhost:5000/swagger/index.html`
+- Para parar a aplicação: `docker-compose down` 
 
 ## Funcionalidades
 
