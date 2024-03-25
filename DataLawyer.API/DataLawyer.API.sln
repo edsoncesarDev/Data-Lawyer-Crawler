@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLawyer.API", "DataLawyer.API\DataLawyer.API.csproj", "{5EAC994A-236A-43D7-A5C3-1558B3F70B4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLawyer.Application", "DataLawyer.Application\DataLawyer.Application.csproj", "{7D233A6B-8FC3-45D2-AAA8-85A4BB1A9785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLawyer.Domain", "DataLawyer.Domain\DataLawyer.Domain.csproj", "{8038F190-A67C-460B-B0A5-653C2D1C0240}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLawyer.Infrastructure", "DataLawyer.Infrastructure\DataLawyer.Infrastructure.csproj", "{D6A8D17A-9B79-4C92-84DB-444AE23515E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLawyer.CrossCutting", "DataLawyer.CrossCutting\DataLawyer.CrossCutting.csproj", "{2C36F089-CBB0-42B6-B936-890BAB9339AE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8C07E40D-6DCE-4968-AA79-74BF38B78C82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EAC994A-236A-43D7-A5C3-1558B3F70B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAC994A-236A-43D7-A5C3-1558B3F70B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAC994A-236A-43D7-A5C3-1558B3F70B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAC994A-236A-43D7-A5C3-1558B3F70B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D233A6B-8FC3-45D2-AAA8-85A4BB1A9785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D233A6B-8FC3-45D2-AAA8-85A4BB1A9785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D233A6B-8FC3-45D2-AAA8-85A4BB1A9785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D233A6B-8FC3-45D2-AAA8-85A4BB1A9785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8038F190-A67C-460B-B0A5-653C2D1C0240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8038F190-A67C-460B-B0A5-653C2D1C0240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8038F190-A67C-460B-B0A5-653C2D1C0240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8038F190-A67C-460B-B0A5-653C2D1C0240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A8D17A-9B79-4C92-84DB-444AE23515E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A8D17A-9B79-4C92-84DB-444AE23515E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A8D17A-9B79-4C92-84DB-444AE23515E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A8D17A-9B79-4C92-84DB-444AE23515E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C36F089-CBB0-42B6-B936-890BAB9339AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C36F089-CBB0-42B6-B936-890BAB9339AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C36F089-CBB0-42B6-B936-890BAB9339AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C36F089-CBB0-42B6-B936-890BAB9339AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C07E40D-6DCE-4968-AA79-74BF38B78C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C07E40D-6DCE-4968-AA79-74BF38B78C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C07E40D-6DCE-4968-AA79-74BF38B78C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C07E40D-6DCE-4968-AA79-74BF38B78C82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA87BFDC-D076-4FFD-AE29-56380E9D6AB6}
+	EndGlobalSection
+EndGlobal
