@@ -28,8 +28,8 @@ Developing a crawler with ASP.NET Core REST API C#
 ## Verbos HTTP
 
 ### Users:
-- `METHOD POST:` Registrar usuário.
-- `METHOD POST:` Efetuas login.
+- `METHOD POST:` Registra usuário.
+- `METHOD POST:` Efetua login.
 
 ### Processes:
 - `METHOD POST:` Consulta e persiste dados do processo via Crawler.
