@@ -7,7 +7,7 @@ Developing a crawler with ASP.NET Core REST API C#
 
 ## Abrir e rodar o projeto
 
-`**OBS** Verifique se o seu Visual Studio executou o docker-compose automaticamente, se sim, apague as imagens e os containers, em seguida siga as orientações abaixo.`
+`OBS: Verifique se o seu Visual Studio executou o docker-compose automaticamente, se sim, apague as imagens e os containers, em seguida siga as orientações abaixo.`
 
 - Após obter o repositório, faça o `build` da solução para compilar o código-fonte.
 - Para executar o projeto é necessário ter o `Docker` instalado em seu dispositivo.
