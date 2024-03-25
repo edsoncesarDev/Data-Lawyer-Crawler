@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using DataLawyer.Application.Processes.Commands;
 using DataLawyer.Application.Processes.Queries;
+using DataLawyer.Domain.Validation;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -51,9 +52,12 @@ namespace DataLawyer.API.Controllers
             return Ok();
         }
 
-        [HttpPut]
-        public async Task<IActionResult> UpdateProcess([FromBody] ProcessUpdateCommand command)
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateProcess([FromBody] ProcessUpdateCommand command, int id)
         {
+            if (id != command.Id)
+                DomainValidationExceptions.When(true, "Invalid id.");
+
             var response = await _mediat.Send(command);
 
             if (!response) return BadRequest();
