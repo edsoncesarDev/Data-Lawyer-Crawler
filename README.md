@@ -34,6 +34,6 @@ Developing a crawler with ASP.NET Core REST API C#
 ### Processes:
 - `METHOD POST:` Consulta e persiste dados do processo via Crawler.
 - `METHOD GET:` Busca todos os processos cadastrados.
-- `METHOD GET` Busca um processo pelo Id.
-- `METHOD PUT` Atualiza um processo.
-- `METHOD DELETE` Exclui um processo.
+- `METHOD GET:` Busca um processo pelo Id.
+- `METHOD PUT:` Atualiza um processo.
+- `METHOD DELETE:` Exclui um processo.
