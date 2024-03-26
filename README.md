@@ -13,8 +13,9 @@ Developing a crawler with ASP.NET Core REST API C#
 - Para executar o projeto é necessário ter o `Docker` instalado em seu dispositivo.
 - Utilizando o visual studio, basta clicar em `Tools > Command Line > Developer PowerShell` para abrir uma janela do mesmo.
 - Com isso basta digitar o comando: `docker-compose -f docker-compose.yml up -d`
+- Aguarde até que as imagens e os containers sejam criados.
 - Logo após, abra seu navegador e digite o seguinte endereço: `http://localhost:5000/swagger/index.html`
-- Para parar a aplicação: `docker-compose down` 
+- Para parar a aplicação digite: `docker-compose down` 
 
 ## Funcionalidades
 
